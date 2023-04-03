@@ -7,8 +7,8 @@
   white-space: nowrap;
 
   &--primary {
-    background-color: #4f2ac3;
-    color: #fff;
+    background-color: $blue2;
+    color: $textColor;
   }
 
   @media (max-width: 1024px) {

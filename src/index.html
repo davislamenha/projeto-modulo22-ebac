@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/main.scss">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -39,18 +40,47 @@
     </div>
   </header>
 
-  <section class="event">
-    <div class="container">
+  <section class="event event--frontend">
+    <div class="container" data-aos="fade-right">
       <div class="event__details">
         <h2 class="event__details__title">Front-end</h2>
         <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dignissimos quaerat suscipit sint sunt itaque. Assumenda, officia tenetur quasi id asperiores modi magni non molestias, neque sunt facere nesciunt quis.</p>
       </div>
       <img class="event__img" src="./images/frontend.png" alt="Front-end">
     </div>
-
   </section>
 
+  <section class="event event--ui-ux">
+    <div class="container" data-aos="fade-left">
+      <img class="event__img" src="./images/ui-ux.png" alt="UI/UX">
+      <div class="event__details">
+        <h2 class="event__details__title">UI/UX</h2>
+        <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dignissimos quaerat suscipit sint sunt itaque. Assumenda, officia tenetur quasi id asperiores modi magni non molestias, neque sunt facere nesciunt quis.</p>
+      </div>
+    </div>
+  </section>
 
+  <section class="event event--data-science">
+    <div class="container" data-aos="fade-right">
+      <div class="event__details">
+        <h2 class="event__details__title">Data Science</h2>
+        <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dignissimos quaerat suscipit sint sunt itaque. Assumenda, officia tenetur quasi id asperiores modi magni non molestias, neque sunt facere nesciunt quis.</p>
+      </div>
+      <img class="event__img" src="./images/data.png" alt="Data Science">
+    </div>
+  </section>
+
+  <section class="event event--backend">
+    <div class="container" data-aos="fade-left">
+      <img class="event__img" src="./images/backend.png" alt="Backend">
+      <div class="event__details">
+        <h2 class="event__details__title">Backend</h2>
+        <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dignissimos quaerat suscipit sint sunt itaque. Assumenda, officia tenetur quasi id asperiores modi magni non molestias, neque sunt facere nesciunt quis.</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script type="text/javascript" src="./scripts/main.js"></script>
 </body>
 
